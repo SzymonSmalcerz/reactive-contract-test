@@ -1,0 +1,11 @@
+server:
+  port: 9611
+  max-http-header-size: 16384
+  shutdown: graceful
+spring:
+  application:
+    name: test
+  profiles:
+    active: local
+  main:
+    web-application-type: reactive
